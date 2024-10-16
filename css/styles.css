@@ -1,0 +1,70 @@
+
+*,*::after,*::before{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.purple-gradient {
+    background: rgb(151, 76, 203);
+    background: linear-gradient(
+      180deg,
+      rgba(151, 76, 203, 1) 0%,
+      rgba(66, 62, 160, 1) 80%,
+      rgba(30, 11, 13, 1) 100%
+    );
+    
+
+}
+#menu ul{
+all:unset;
+list-style-type: none;
+padding: 0;
+display: flex;
+gap: 40px;
+color: #F2F6FF;
+font-size: 24px;
+font-weight: 600;
+justify-content: flex-end;
+padding-top: 58px;
+}
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cronometro{
+  width: 348px;
+  height: 348px;
+  border-radius: 9999px;
+  border: 1px solid #F2F6FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+main section{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cronometro span{
+color: #F2F6FF;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 14.08px;
+}
